@@ -13,6 +13,8 @@ project-root/
 
 ## Explanation:
 
+# Live Link :https://santhoshk-marmeto-assignment.netlify.app/
+
 index.html: This is the main HTML file for your project, where you'll write the structure and content of your web page.
 
 css/: This directory contains the CSS files for styling your web page.
