@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Marmeto</title>
+  </head>
+
+  <body>
+    <section class="images">
+      <div class="product-image"></div>
+      <div class="thumbnail-image"></div>
+    </section>
+
+    <section class="product-detail">
+      <div class="title-div">
+        <p class="product-vendor"></p>
+        <h3 class="product-title"></h3>
+      </div>
+
+      <div class="price-div">
+        <div class="block">
+          <span class="price"></span>
+          <span class="percentage-off"></span>
+        </div>
+        <p class="compared-price"></p>
+      </div>
+
+      <div class="color-div">
+        <p>Choose a color</p>
+        <div class="colors"></div>
+      </div>
+
+      <div class="size-div">
+        <p>Choose a size</p>
+        <div class="sizes"></div>
+      </div>
+
+      <div class="button-div">
+        <div class="inc-dec-btn">
+          <button class="dec-btn btn">-</button>
+          <input type="text" class="text-input" value="0" readonly />
+          <button class="inc-btn btn">+</button>
+        </div>
+
+        <button class="add-to-cart-btn">
+          <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="cart-add-message"></div>
+
+      <div class="product-desc"></div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
